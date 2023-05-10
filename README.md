@@ -8,7 +8,7 @@ El reconocimiento de entidades es especialmente importante en el campo de la med
 
 En este repositorio se presenta un ejemplo de cómo se puede finetunear un modelo de lenguaje pre-entrenado para reconocimiento de entidades en lenguaje médico, utilizando la librería Hugging Face Transformers.
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png](https://vamvas.ch/assets/bert-for-ner/bert-for-ner.png)
+![bert-for-ner](https://github.com/Mariac-db/Meetup-finetuning/assets/70480328/54eb42eb-b1f2-4e77-aadd-b48d38a184db)
 
 
 
