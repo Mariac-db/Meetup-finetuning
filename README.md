@@ -8,18 +8,12 @@ NER es de gran importancia en el campo del NLP, ya que permite identificar y ext
 
 En este repositorio se presenta un ejemplo de cómo se puede finetunear un modelo de lenguaje pre-entrenado para reconocimiento de entidades  utilizando la librería Hugging Face Transformers usando el modelo *PlanTL-GOB-ES/bsc-bio-ehr-es-pharmaconer*, el cual es una versión afinada del modelo base de RoBERTa y ha sido preentrenada utilizando el corpus biomédico español más grande conocido hasta la fecha, compuesto por documentos biomédicos, casos clínicos y documentos HCE para un total de Se procesaron 1.100 millones de tokens. Para mayor información: (https://huggingface.co/PlanTL-GOB-ES/bsc-bio-ehr-es-pharmaconer)
 
-
-
-<p align="center">
-  <img src="[URL de la imagen](https://github.com/Mariac-db/Meetup-finetuning/assets/70480328/54eb42eb-b1f2-4e77-aadd-b48d38a184db)" alt="Bloque de un transformer">
-</p>
-
-
 ## Transformers
 
 Los Transformers son modelos de lenguaje basados en atención que han revolucionado el campo del procesamiento del lenguaje natural (NLP). A diferencia de los modelos de lenguaje tradicionales, que utilizan RNN y LSTM, los Transformers no requieren una estructura secuencial y pueden procesar de manera eficiente secuencias de texto más largas. Utilizan una técnica llamada atención para enfocarse en partes relevantes del texto de entrada durante la codificación y decodificación, y han sido entrenados en enormes cantidades de datos para aprender patrones lingüísticos complejos. Los Transformers se han utilizado en una amplia variedad de tareas de NLP, como la traducción automática, la generación de texto y la identificación de entidades con nombre (NER), y han demostrado un rendimiento sobresaliente en comparación con los modelos anteriores.
 
-![imagen bloque del transformers](https://www.codificandobits.com/img/posts/2020-06-30/red-transformer-diagrama-bloques-general.jpg)
+![Bloque de un transformer](https://www.codificandobits.com/img/posts/2020-06-30/red-transformer-diagrama-bloques-general.jpg)
+
 
 ## Finetuning
 
