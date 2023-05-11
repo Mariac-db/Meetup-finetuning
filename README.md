@@ -12,11 +12,23 @@ En este repositorio se presenta un ejemplo de cómo se puede finetunear un model
 
 ## Transformers
 
+Los Transformers son modelos de lenguaje basados en atención que han revolucionado el campo del procesamiento del lenguaje natural (NLP). A diferencia de los modelos de lenguaje tradicionales, que utilizan RNN y LSTM, los Transformers no requieren una estructura secuencial y pueden procesar de manera eficiente secuencias de texto más largas. Utilizan una técnica llamada atención para enfocarse en partes relevantes del texto de entrada durante la codificación y decodificación, y han sido entrenados en enormes cantidades de datos para aprender patrones lingüísticos complejos. Los Transformers se han utilizado en una amplia variedad de tareas de NLP, como la traducción automática, la generación de texto y la identificación de entidades con nombre (NER), y han demostrado un rendimiento sobresaliente en comparación con los modelos anteriores.
+
 ## Finetuning
 
+Fine-tuning es un enfoque común para ajustar los modelos de lenguaje pre-entrenados para una tarea específica de NER. En este enfoque, los pesos del modelo pre-entrenado se utilizan como punto de partida y se ajustan en una tarea específica de NER.
+
+En la práctica, cuando se realiza el fine-tuning, los pesos del modelo pre-entrenado se ajustan durante el entrenamiento de la tarea de NER para que se ajusten mejor a los datos de entrenamiento específicos de NER. Durante el proceso de fine-tuning, los pesos del modelo pre-entrenado no se dejan estáticos, sino que se ajustan continuamente para minimizar la función de pérdida de la tarea de NER.
+
+El fine-tuning de un modelo pre-entrenado para una tarea de NER específica implica la adición de una capa de salida que se entrena específicamente para la tarea de NER. Esta capa de salida está conectada a la última capa oculta del modelo pre-entrenado y se entrena para predecir las etiquetas de entidad en la tarea de NER.
+
+En resumen, durante el fine-tuning, el modelo pre-entrenado se entrena nuevamente con los datos específicos de la tarea de NER, ajustando continuamente los pesos del modelo para minimizar la función de pérdida de la tarea de NER.
 
 ## Modelo a usar
 
+Una versión afinada del modelo bsc-bio-ehr-es , un modelo base de RoBERTa y ha sido preentrenada utilizando el corpus biomédico español más grande conocido hasta la fecha, compuesto por documentos biomédicos, casos clínicos y documentos HCE para un total de Se procesaron 1.100 millones de tokens de texto limpio y desduplicado.
+
+Para más detalles sobre los corpus y la formación, consulta el modelo de ficha bsc-bio-ehr-es o desde el siguiente link: (https://huggingface.co/PlanTL-GOB-ES/bsc-bio-ehr-es-cantemist)
 
 ## Prerequisitos
 
